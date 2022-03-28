@@ -1,0 +1,49 @@
+字符串
+字符串名[n:m] 截取（从0开始，不包括m）
+字符串名.capitalize() 大写
+str(其他类型名) 转换为字符串
+字符串名.count(关键字,n,m) 关键字在n~m中出现次数
+字符串名.find(关键字,n,m) 关键字在n~m中是否出现，没有返回-1
+
+列表=[, , ,]
+len(列表名) 元素个数
+max(列表名) 最大值
+min(列表名) 最小值
+list(其他类型名) 转换为列表
+列表名[n:m] 截取
+列表名.append(元素) 末尾添加元素
+列表名1.expend(列表名2) 末尾添加其他列表元素
+列表名.pop() 末尾删除元素
+列表名.remove(元素) 删除第一个对应元素
+del 列表名[索引位置] 删除元素
+del 列表名[] 删除列表
+列表名.insert(索引位置,元素) 插入元素
+列表名.count(元素) 元素出现次数
+列表名.index(元素) 元素索引位置
+列表名.reverse() 反向
+列表名.sort() 默认升序
+列表名.sort(reverse=True) 降序
+
+元组=(, , ,)
+tuple(其他类型名) 转换为元组
+for x in (1, 2, 3): print x, 迭代
+
+字典={:, :, :}
+字典名['key值']=value值 更新/添加
+字典名.clear() 清空字典
+str(字典名) 输出字符串
+字典名.get(key值) 返回对应值
+字典名.has_key(key值) 在字典Ture，不在False（Python3没有）
+字典名.keys()
+字典名.values()
+字典名,pop(key值) 删除元素
+字典名.popitem() 删除末位元素
+
+时间日期：
+获取当前时间戳
+import time
+time.time()
+日期转成2016-03-20 11:45:39形式
+print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) 
+日期转成Sat Mar 28 22:24:24 2016形式
+print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) 
